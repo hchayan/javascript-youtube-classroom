@@ -112,7 +112,7 @@ class StorageModel {
   }
 
   set filterOption(newFilter) {
-    return (this.#filterOption = newFilter);
+    this.#filterOption = newFilter;
   }
 
   get savedVideos() {
